@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <main>
       <Navbar/>
-      <div className={banner}>
+      <div className='banner'>
         <h1>Super Celulares</h1>
       </div>
     </main>
