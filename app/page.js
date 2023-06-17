@@ -4,7 +4,7 @@ export default function Home() {
     <main>
       <Navbar/>
       <div className='banner'>
-        <h1>Super Celulares</h1>
+        <h1>Super Celulares.</h1>
       </div>
     </main>
   )
