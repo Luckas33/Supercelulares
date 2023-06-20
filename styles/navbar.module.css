@@ -2,6 +2,10 @@
     display: flex;
     background-color: black;
     padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    align-items:right;
+    justify-content: right;
 }
 .navbar a {
     color: beige;
