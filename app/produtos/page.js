@@ -3,7 +3,6 @@ import Navbar from '../../components/navbar'
 export default function page(){
     return(
         <main>
-            <Navbar/>
             <h1>Produtos</h1>
             <ul>
                 <li>

@@ -3,10 +3,9 @@ import styles from '../styles/navbar.module.css'
 
 export default function Navbar() {
   return (
-    <main className={styles.navbar}>
+    <nav className={styles.navbar}>
      <Link href="/">Home</Link>
-     <br></br>
      <Link href="/produtos">Produtos</Link>
-    </main>
+    </nav>
   )
 }
