@@ -4,8 +4,9 @@
     padding: 20px 10px;
     position: fixed;
     width: 100%;
-    align-items:right;
-    justify-content: right;
+    align-items:center;
+    justify-content: flex-end;
+
 }
 .navbar a {
     color: beige;
@@ -14,5 +15,5 @@
     transition: .3s;
 }
 .navbar a:hover{
-    color: gray;
+    color: gold;
 }

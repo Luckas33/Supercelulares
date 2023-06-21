@@ -7,10 +7,12 @@ export default function Banner() {
         <div className = {styles.letras1}>
             <h1>Super Celulares</h1>
                 <div className = {styles.letras2}> 
-                    <h6>Compre Agora!</h6>
+                <Link href='/produtos'>
+                   <button className={styles.button}>Compre Agora!</button>
+                </Link>
             </div>
         </div>
-        
-    </main>
+
+        </main>
   )
 }
