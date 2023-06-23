@@ -1,0 +1,30 @@
+import React, { useEffect, useState } from 'react';
+
+export default function Produtos() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const fetchApi = async () => {
+      const url = 'https://apitrainees.herokuapp.com/celulares';
+      const response = await fetch(url);
+      const objJson = await response.json();
+      setData(objJson);
+    };
+    fetchApi();
+  }, []);
+
+  return (
+    <div>
+      <h1>Produtos</h1>
+      <div>
+        {data.map((e) => (
+          <div key={e.id}>
+            <h3>{e.nome}</h3>
+            <img src={e.img} alt="celulares" />
+            <h5>{e.preco}</h5>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
