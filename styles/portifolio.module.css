@@ -1,10 +1,25 @@
 .portf{
+    background-image: url(../images/portf2.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size: 1.3em;
+    color: white;
+}
+.portf0{
+    background-color: black;
+    border: 0;
+    border-radius: 12px;
+    color: gold;
+    font-size: 1.1em;
 }
 .portf1{
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,6 +27,7 @@
     }
 
 .portf2{
+    color: gold;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,9 +1,23 @@
 .prod{
-    background-image: url(../images/contact.png);
+    background-image: url(../images/history.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.prod0{
+    background-color: black;
+    color: gold;
+    font-size: 1.5em;
+    border: 0;
+    border-radius: 12px;
+    padding: 5px 5px;
+}
+.prod1{
+    color: black;
+    font-size: 1.3em;
+
 }

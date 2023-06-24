@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images:{
-        domains: ["apitrainees.herokuapp"]
+        domains: ["apitrainees.herokuapp.com"]
     }
 }
 
