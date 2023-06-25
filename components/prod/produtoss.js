@@ -23,7 +23,7 @@ export default async function Produtoss(){
            <div classsName={styles.prod1}>
             
             {posts.map((post,index) =>{
-               return <p key={index} className={styles.prod2}>{post.nome}<Image src={post.img} alt="foto celulares" width={100} height={100}></Image><p className={styles.prod3}>{post.preco}{post.descricao}</p></p>
+               return <p key={index} className={styles.prod2}>{post.nome}<Image src={post.img} alt="foto celulares" width={250} height={250}></Image><h4>Preço:</h4><p className={styles.prod3}>{post.preco}<h5>Descrição:</h5>{post.descricao}</p></p>
                 
                 
                    
