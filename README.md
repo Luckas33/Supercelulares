@@ -1,6 +1,11 @@
 Este projeto é feito para o trainne 3 da gti
-Link do site: https://supercelulares-mjh0vtx3t-luckas33.vercel.app
 
+## Link do site: 
+'''bash
+
+https://supercelulares.vercel.app
+
+'''
 ## Desafio 3
 Crie um site usando react/javascript para o cliente Cleiton.
 
