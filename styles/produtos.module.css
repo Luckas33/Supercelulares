@@ -25,3 +25,16 @@
     font-size: 1.2em;
     color: black;
 }
+.buttom2{
+    background-color: gold;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+}
+.buttom2:hover{
+    background-color: black;
+    color: gold;
+}
