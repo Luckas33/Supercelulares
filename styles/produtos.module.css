@@ -38,3 +38,40 @@
     background-color: black;
     color: gold;
 }
+
+
+@media screen and (max-width: 768px) {
+    .prod0 {
+        font-size: 1.2em;
+    }
+    
+    .prod1 {
+        font-size: 1em;
+    }
+    
+    .prod2 {
+        font-size: 0.9em;
+    }
+    
+    .buttom2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .prod0 {
+        font-size: 1em;
+    }
+    
+    .prod1 {
+        font-size: 0.9em;
+    }
+    
+    .prod2 {
+        font-size: 0.8em;
+    }
+    
+    .buttom2 {
+        font-size: 18px;
+    }
+}

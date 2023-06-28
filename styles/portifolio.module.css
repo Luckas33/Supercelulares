@@ -1,17 +1,17 @@
 .portf{
     background-image: url(../images/portf2.png);
-    display: flex;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
     height: 100%;
-    width: 100%;
+    width: 96.5vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-size: 1.3em;
     color: white;
+    margin: 0 auto;
 }
 .portf0{
     background-color: black;
@@ -43,4 +43,24 @@
     justify-content: center;
     flex-direction: column;
 
+}
+
+@media screen and (max-width: 768px) {
+    .portf {
+        font-size: 1em;
+    }
+    
+    .portf0 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .portf {
+        font-size: 0.8em;
+    }
+    
+    .portf0 {
+        font-size: 0.8em;
+    }
 }

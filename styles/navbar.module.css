@@ -17,3 +17,29 @@
 .navbar a:hover{
     color: gold;
 }
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+    
+    .navbar a {
+        margin-right: 0.5em;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+        align-items: flex-start;
+    }
+    
+    .navbar a {
+        margin-right: 0;
+        margin-bottom: 0.5em;
+        font-size: 0.8em;
+    }
+}

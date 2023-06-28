@@ -4,17 +4,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 96.5%;
+    width: 93vw;
     height: 620px;
     flex-direction: column;
     align-items: left;
     justify-content: center;
     padding-left: 55px;
-    
+    margin:0 auto;
 }
 
+
 .letras1{ 
-    
+    padding: 10 20;
     color: gold;
     font-size: 1.8em;
 }
@@ -36,4 +37,34 @@
     
     justify-content: center;
 
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 400px;
+        padding-left: 20px;
+    }
+    
+    .letras1 {
+        font-size: 1.2em;
+    }
+    
+    .button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner {
+        height: 300px;
+        padding-left: 10px;
+    }
+    
+    .letras1 {
+        font-size: 1em;
+    }
+    
+    .button {
+        font-size: 15px;
+    }
 }
