@@ -35,5 +35,3 @@ export default async function Produtoss(){
       
     )
     
-}
-//mesmo eu dividindo as divs o compilador desfaz o css e aplica pra todos
